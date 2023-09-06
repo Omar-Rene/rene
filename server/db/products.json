@@ -1,0 +1,14 @@
+[
+    {
+        "name": "test",
+        "price": 20,
+        "description": "test description",
+        "image_url": "url de imangen"
+    },
+    {
+        "name": "test",
+        "price": 20,
+        "description": "test description",
+        "image_url": "url de imangen"
+    }
+]
