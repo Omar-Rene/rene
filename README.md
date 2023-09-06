@@ -1,2 +1,0 @@
-# rene
-hola como estas
