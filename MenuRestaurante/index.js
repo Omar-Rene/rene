@@ -7,7 +7,7 @@ const navigationController = require('./server/controllers/NavigationController'
 app.use(express.static(path.join(__dirname, './pagina')));
 app.use(cors());
 app.get('/', navigationController.goIndex);
-app.get('/nosotros', navigationController.goNosotros);
+app.get('/inicio', navigationController.goNosotros);
 
 
 app.listen(8080, () => {
