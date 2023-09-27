@@ -6,8 +6,8 @@ const getAll = async (req, res) => {
     console.log("Nueva peticion en users")
     await conectarDB();
 
-    const products = await Product.find({});
+    const Products = await Product.find({});
     await desconectarDB();
-    res.json(products);
+    res.json(Products);
 };
 module.exports = {getAll,}

@@ -1,14 +1,32 @@
 [
     {
-        "name": "test",
+        "name": "Salteñas",
         "price": 20,
-        "description": "test description",
-        "image_url": "url de imangen"
+        "description": "Las salteñas son empanadas rellenas de carne, pollo o verduras, sazonadas con una mezcla de sabores dulces y picantes. Suelen ser un popular snack o desayuno en Bolivia.",
+        "image_url": "img/saltenas.jpg"
     },
     {
-        "name": "test",
+        "name": "Sajta de Pollo",
         "price": 20,
-        "description": "test description",
-        "image_url": "url de imangen"
+        "description": "Un plato tradicional boliviano que combina pollo, papas, ají, y ocasionalmente queso fresco en una salsa espesa y picante. A menudo se sirve con arroz.",
+        "image_url": "img/Sajta.jpg"
+    },
+    {
+        "name": "Silpancho",
+        "price": 20,
+        "description": "El silpancho es un plato compuesto por carne de res empanada, que se sirve sobre una base de arroz y papas fritas, y se cubre con huevo frito y una salsa de tomate picante.",
+        "image_url": "img/Silpancho.jpg"
+    },
+    {
+        "name": "Charquekan",
+        "price": 20,
+        "description": "Un guiso que combina carne de llama o carne de res deshidratada (charque) con papas, maíz y una variedad de especias. Es un plato nutritivo y sustancioso.",
+        "image_url": "img/charque.jpg"
+    },
+    {
+        "name": "Anticucho",
+        "price": 20,
+        "description": " Brochetas de carne de res, cerdo o pollo marinadas en una mezcla de especias y achiote, y luego asadas a la parrilla. Suelen servirse con papas y llajwa.",
+        "image_url": "img/Anticuchos.jpg"
     }
 ]

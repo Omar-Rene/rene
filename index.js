@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors');
-const navigationController = require('./server/controllers/NavigationController')
+const navigationController = require('./server/controllers/navigationController')
 const productController = require('./server/controllers/productController');
 const PORT = process.env.PORT || 8000;
 app.use(express.static(path.join(__dirname, './pagina')));
