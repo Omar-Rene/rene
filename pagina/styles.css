@@ -1,38 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-  }
-  
-  h1 {
+}
+
+h1 {
     text-align: center;
-    color:red;
-    border:1px solid;
-  }
-  
-  #product-list {
+    color: white;
+    background: linear-gradient(to right, #d52b1e, #d52b1e 33%, #ffd100 33%, #ffd100 67%, #00a859 67%); /* Gradiente de fondo con los colores de la bandera de Bolivia */
+    background-clip: text;
+    font-size: 36px;
+    height: 50px;
+}
+#product-list {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  li {
+}
+
+
+li {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin: 10px;
-    padding: 20px;
+    padding: 0; 
     width: 300px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  img {
+    position: relative; 
+}
+
+img  {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 10px auto;
-  }
-  
+    margin: 0 auto; 
+}
+.product-info{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 93,5%;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+}
+.product-info:hover{
+opacity: 0;
+}
